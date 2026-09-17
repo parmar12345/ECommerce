@@ -16,8 +16,6 @@ public class User
 
     public DateTime? UpdatedAt { get; set; }
 
-    public int age { get; set; }
-
     public ICollection<PasswordResetToken> PasswordResetTokens
     { get; set; } = new List<PasswordResetToken>();
 
